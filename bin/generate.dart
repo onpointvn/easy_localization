@@ -292,11 +292,11 @@ class CodegenLoader extends AssetLoader{
 // }
 
 void printInfo(String info) {
-  log('\u001b[32measy localization: $info\u001b[0m');
+  print('\u001b[32measy localization: $info\u001b[0m');
 }
 
 void printError(String error) {
-  log('\u001b[31m[ERROR] easy localization: $error\u001b[0m');
+  print('\u001b[31m[ERROR] easy localization: $error\u001b[0m');
 }
 
 String toCamelCase(String key) {
